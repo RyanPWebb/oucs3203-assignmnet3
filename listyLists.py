@@ -10,3 +10,9 @@ def listProd(list: int):
 
     return prod
 
+inString = input("Input a comma separated list of numbers:")
+stringList = inString.split(',')
+nums = [int(x) for x in stringList]
+
+print("Sum: {}".f, listSum(nums))
+print("Product: {}".f, listProd(nums))
