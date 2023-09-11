@@ -10,6 +10,9 @@ def listProd(list: int):
 
     return prod
 
+def listReverse(list):
+    return list[::-1]
+
 inString = input("Input a comma separated list of numbers:")
 stringList = inString.split(',')
 nums = [int(x) for x in stringList]
