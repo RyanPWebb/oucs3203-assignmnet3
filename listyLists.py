@@ -19,3 +19,4 @@ nums = [int(x) for x in stringList]
 
 print("Sum: {}".f, listSum(nums))
 print("Product: {}".f, listProd(nums))
+print("Reverse: {}".f, listReverse(nums))
